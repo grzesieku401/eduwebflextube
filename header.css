@@ -13,6 +13,8 @@
 
 .channel-header_nav{
   position: relative;
+  position: static;
+  top: 0;
 }
 
 .channel-header_avatar{
