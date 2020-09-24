@@ -44,6 +44,7 @@ body{
 .site-nav .fas{
   padding: 8px;
   margin-right: 16px;
+  color: #909090;
 }
 
 .site-nav .site-nav_search-input{
