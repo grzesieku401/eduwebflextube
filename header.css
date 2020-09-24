@@ -135,3 +135,9 @@
     font-size: 18px;
   }
 }
+
+@media (max-width: 550px) {
+  .channel-header_details{
+    padding: 16px 16px 0;
+  }
+}

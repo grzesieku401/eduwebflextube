@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="nav.css">
   <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="main.css">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://kit.fontawesome.com/c1a856ce0f.js" crossorigin="anonymous"></script>
   <title>Flextube</title>
@@ -114,8 +115,9 @@
   </header>
   <main class="video-section">
     <nav class="video-section_nav">
-      <label for="video-section_filter video-section_label">
+      <label for="video-section_filter" class="video-section_label-primary">
         Uploaded videos
+        <span class="fas fa-caret-down"></span>
       </label>
       <select id="video-section_filter" class="video-section_filter" name="video-filter">
         <option value="all">
@@ -132,8 +134,9 @@
         Play all
       </button>
 
-      <label for="video-section_sort video-section_label">
-        Uploaded videos
+      <label for="video-section_sort" class="video-section_label-secondary">
+        <span class="fas fa-align-left"></span>
+        Sort by
       </label>
       <select id="video-section_sort" class="video-section_sort" name="video-sort">
         <option value="most-popular">
