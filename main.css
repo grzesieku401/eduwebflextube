@@ -10,6 +10,7 @@
 .video-section_nav{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .video-section_label-primary{
@@ -38,4 +39,111 @@
 .video-section_sort,
 .video-section_filter{
   display: none;
+}
+
+.video-section_list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.video-section_video{
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.video-section_video-link{
+  display: flex;
+  width: 210px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.video-section_thumbnail{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 210px;
+  height: 117px;
+  background-image: url('https://place-hold.it/210x117/696e9e/ffffff&text=AwesomeTutorial')
+
+}
+
+.video-section_total-time{
+  min-width: 40px;
+  height: 16px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+  margin: 4px;
+  padding: 2px 4px;
+  font-size: 12px;
+  border-radius: 2px;
+  line-height: 12px;
+  text-align: center;
+  margin-top: auto;
+  opacity: 0.9;
+}
+
+.video-section_watch-later{
+  display: none;
+  margin: 4px;
+  font-size: 18px;
+  color: white;
+  background: #111;
+  width: 25px;
+  height: 25px;
+  border-radius: 2px;
+  opacity: 0.7;
+}
+
+.video-section_video-link:hover .video-section_watch-later,
+.video-section_video-link:hover .video-section_more-details {
+  display: block;
+}
+
+.video-section_video-name{
+  color: #0A0A0A;
+  font-size: 14px;
+  line-height: 24px;
+  position: relative;
+  padding-right: 24px;
+  width: 100%;
+}
+
+.video-section_more-details{
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #606060;
+  margin-left: auto;
+  font-size: 18px;
+  height: 24px;
+  width: 24px;
+  opacity: 0.8;
+}
+
+.video-section_details{
+  font-size: 13px;
+  color: #606060;
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+
+.video-section_badge{
+  min-width: 45px;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  color: #606060;
+  font-size: 12px;
+  min-height: 14px;
+  line-height: 14px;
+  background: rgba(0, 0, 0, 0.05);
+  margin-right: 5px;
+  padding: 3px
 }
