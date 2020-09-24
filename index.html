@@ -112,5 +112,66 @@
       </button>
     </nav>
   </header>
+  <main class="video-section">
+    <nav class="video-section_nav">
+      <label for="video-section_filter video-section_label">
+        Uploaded videos
+      </label>
+      <select id="video-section_filter" class="video-section_filter" name="video-filter">
+        <option value="all">
+          All videos
+        </option>
+        <option value="uploaded">
+          Uploaded videos
+        </option>
+        <option value="live">
+          Live videos
+        </option>
+      </select>
+      <button class="video-section_play-all">
+        Play all
+      </button>
+
+      <label for="video-section_sort video-section_label">
+        Uploaded videos
+      </label>
+      <select id="video-section_sort" class="video-section_sort" name="video-sort">
+        <option value="most-popular">
+          Most popular
+        </option>
+        <option value="added-desc">
+          Time added (descending)
+        </option>
+        <option value="added-asc">
+          Time added (ascending)
+        </option>
+      </select>
+    </nav>
+    <ul class="video-section_list">
+      <li class="video-section_video">
+        <a href="#" class="video-section_video-link">
+          <div class="video-section_thumbnail">
+            <button class="videos-section_watch-later fas fa-clock">
+            </button>
+            <span class="video-section_total-time">
+              12:33
+            </span>
+          </div>
+          <h4 class="video-section_video-name">
+            CSS flexbox tutorial
+            <button class="video-section_more-details">
+
+            </button>
+          </h4>
+          <span class="videos-section_details">
+            7k views, two years ago
+          </span>
+          <span class="video-section-badge">
+            cc
+          </span>
+        </a>
+      </li>
+    </ul>
+  </main>
 </body>
 </html>
